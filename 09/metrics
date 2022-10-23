@@ -1,0 +1,32 @@
+# TYPE cusnode_cpu_percent_total gauge
+cusnode_cpu_percent_total{mode="user"} 5.92
+cusnode_cpu_percent_total{mode="nice"} 0.04
+cusnode_cpu_percent_total{mode="system"} 3.68
+cusnode_cpu_percent_total{mode="iowait"} 1.87
+cusnode_cpu_percent_total{mode="steal"} 0.00
+cusnode_cpu_percent_total{mode="idle"} 88.48
+
+# TYPE cusnode_memory_kilobytes gauge
+cusnode_memory_kilobytes{mode="total"} 1024368
+cusnode_memory_kilobytes{mode="used"} 267292
+cusnode_memory_kilobytes{mode="free"} 368480
+cusnode_memory_kilobytes{mode="shared"} 1056
+cusnode_memory_kilobytes{mode="buff_cache"} 388595
+cusnode_memory_kilobytes{mode="available"} 624791
+
+# TYPE cusnode_disk_capacity_kilobytes gauge
+cusnode_disk_capacity_kilobytes{device="udev",mounted="/dev"} 454984
+cusnode_disk_capacity_kilobytes{device="tmpfs",mounted="/run"} 100036
+cusnode_disk_capacity_kilobytes{device="/dev/mapper/ubuntu--vg-ubuntu--lv",mounted="/"} 8408452
+cusnode_disk_capacity_kilobytes{device="tmpfs",mounted="/dev/shm"} 500180
+cusnode_disk_capacity_kilobytes{device="tmpfs",mounted="/run/lock"} 5120
+cusnode_disk_capacity_kilobytes{device="tmpfs",mounted="/sys/fs/cgroup"} 500180
+cusnode_disk_capacity_kilobytes{device="/dev/loop0",mounted="/snap/core20/1611"} 63488
+cusnode_disk_capacity_kilobytes{device="/dev/loop1",mounted="/snap/core18/2566"} 56960
+cusnode_disk_capacity_kilobytes{device="/dev/loop3",mounted="/snap/snapd/16292"} 48128
+cusnode_disk_capacity_kilobytes{device="/dev/loop2",mounted="/snap/lxd/22753"} 69504
+cusnode_disk_capacity_kilobytes{device="/dev/loop4",mounted="/snap/snapd/17336"} 49152
+cusnode_disk_capacity_kilobytes{device="/dev/loop5",mounted="/snap/core20/1623"} 64768
+cusnode_disk_capacity_kilobytes{device="/dev/sda2",mounted="/boot"} 1768056
+cusnode_disk_capacity_kilobytes{device="tmpfs",mounted="/run/user/1000"} 100036
+cusnode_disk_capacity_kilobytes{device="shared",mounted="/home/boy/mount"} 4882812
